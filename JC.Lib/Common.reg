@@ -1,0 +1,451 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\Common.RandomStr]
+@="Common.RandomStr"
+
+[HKEY_CLASSES_ROOT\Common.RandomStr\CLSID]
+@="{9F45A818-D9DB-39B6-A24A-878F85FEA531}"
+
+[HKEY_CLASSES_ROOT\CLSID\{9F45A818-D9DB-39B6-A24A-878F85FEA531}]
+@="Common.RandomStr"
+
+[HKEY_CLASSES_ROOT\CLSID\{9F45A818-D9DB-39B6-A24A-878F85FEA531}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.RandomStr"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{9F45A818-D9DB-39B6-A24A-878F85FEA531}\InprocServer32\1.0.0.0]
+"Class"="Common.RandomStr"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{9F45A818-D9DB-39B6-A24A-878F85FEA531}\ProgId]
+@="Common.RandomStr"
+
+[HKEY_CLASSES_ROOT\CLSID\{9F45A818-D9DB-39B6-A24A-878F85FEA531}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Common.ZipHelper]
+@="Common.ZipHelper"
+
+[HKEY_CLASSES_ROOT\Common.ZipHelper\CLSID]
+@="{897A5B59-BB26-3198-B12A-1A6C181F8545}"
+
+[HKEY_CLASSES_ROOT\CLSID\{897A5B59-BB26-3198-B12A-1A6C181F8545}]
+@="Common.ZipHelper"
+
+[HKEY_CLASSES_ROOT\CLSID\{897A5B59-BB26-3198-B12A-1A6C181F8545}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.ZipHelper"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{897A5B59-BB26-3198-B12A-1A6C181F8545}\InprocServer32\1.0.0.0]
+"Class"="Common.ZipHelper"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{897A5B59-BB26-3198-B12A-1A6C181F8545}\ProgId]
+@="Common.ZipHelper"
+
+[HKEY_CLASSES_ROOT\CLSID\{897A5B59-BB26-3198-B12A-1A6C181F8545}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Common.OleData]
+@="Common.OleData"
+
+[HKEY_CLASSES_ROOT\Common.OleData\CLSID]
+@="{8C1AB184-92DA-3051-84B2-063DE066FDB8}"
+
+[HKEY_CLASSES_ROOT\CLSID\{8C1AB184-92DA-3051-84B2-063DE066FDB8}]
+@="Common.OleData"
+
+[HKEY_CLASSES_ROOT\CLSID\{8C1AB184-92DA-3051-84B2-063DE066FDB8}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.OleData"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{8C1AB184-92DA-3051-84B2-063DE066FDB8}\InprocServer32\1.0.0.0]
+"Class"="Common.OleData"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{8C1AB184-92DA-3051-84B2-063DE066FDB8}\ProgId]
+@="Common.OleData"
+
+[HKEY_CLASSES_ROOT\CLSID\{8C1AB184-92DA-3051-84B2-063DE066FDB8}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Common.IISManager]
+@="Common.IISManager"
+
+[HKEY_CLASSES_ROOT\Common.IISManager\CLSID]
+@="{E089DAD7-2A0F-3633-8DC0-025B882F3622}"
+
+[HKEY_CLASSES_ROOT\CLSID\{E089DAD7-2A0F-3633-8DC0-025B882F3622}]
+@="Common.IISManager"
+
+[HKEY_CLASSES_ROOT\CLSID\{E089DAD7-2A0F-3633-8DC0-025B882F3622}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.IISManager"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{E089DAD7-2A0F-3633-8DC0-025B882F3622}\InprocServer32\1.0.0.0]
+"Class"="Common.IISManager"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{E089DAD7-2A0F-3633-8DC0-025B882F3622}\ProgId]
+@="Common.IISManager"
+
+[HKEY_CLASSES_ROOT\CLSID\{E089DAD7-2A0F-3633-8DC0-025B882F3622}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Common.VirtualDirectory]
+@="Common.VirtualDirectory"
+
+[HKEY_CLASSES_ROOT\Common.VirtualDirectory\CLSID]
+@="{315F2C35-60EB-3121-BF71-CD9A174016A5}"
+
+[HKEY_CLASSES_ROOT\CLSID\{315F2C35-60EB-3121-BF71-CD9A174016A5}]
+@="Common.VirtualDirectory"
+
+[HKEY_CLASSES_ROOT\CLSID\{315F2C35-60EB-3121-BF71-CD9A174016A5}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.VirtualDirectory"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{315F2C35-60EB-3121-BF71-CD9A174016A5}\InprocServer32\1.0.0.0]
+"Class"="Common.VirtualDirectory"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{315F2C35-60EB-3121-BF71-CD9A174016A5}\ProgId]
+@="Common.VirtualDirectory"
+
+[HKEY_CLASSES_ROOT\CLSID\{315F2C35-60EB-3121-BF71-CD9A174016A5}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Common.VirtualDirectories]
+@="Common.VirtualDirectories"
+
+[HKEY_CLASSES_ROOT\Common.VirtualDirectories\CLSID]
+@="{82145248-7DCA-3743-8578-06A80DC87FBA}"
+
+[HKEY_CLASSES_ROOT\CLSID\{82145248-7DCA-3743-8578-06A80DC87FBA}]
+@="Common.VirtualDirectories"
+
+[HKEY_CLASSES_ROOT\CLSID\{82145248-7DCA-3743-8578-06A80DC87FBA}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.VirtualDirectories"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{82145248-7DCA-3743-8578-06A80DC87FBA}\InprocServer32\1.0.0.0]
+"Class"="Common.VirtualDirectories"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{82145248-7DCA-3743-8578-06A80DC87FBA}\ProgId]
+@="Common.VirtualDirectories"
+
+[HKEY_CLASSES_ROOT\CLSID\{82145248-7DCA-3743-8578-06A80DC87FBA}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Common.MySqlData]
+@="Common.MySqlData"
+
+[HKEY_CLASSES_ROOT\Common.MySqlData\CLSID]
+@="{3397619D-BCA4-3595-BC8C-22EFDB552F8D}"
+
+[HKEY_CLASSES_ROOT\CLSID\{3397619D-BCA4-3595-BC8C-22EFDB552F8D}]
+@="Common.MySqlData"
+
+[HKEY_CLASSES_ROOT\CLSID\{3397619D-BCA4-3595-BC8C-22EFDB552F8D}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.MySqlData"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{3397619D-BCA4-3595-BC8C-22EFDB552F8D}\InprocServer32\1.0.0.0]
+"Class"="Common.MySqlData"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{3397619D-BCA4-3595-BC8C-22EFDB552F8D}\ProgId]
+@="Common.MySqlData"
+
+[HKEY_CLASSES_ROOT\CLSID\{3397619D-BCA4-3595-BC8C-22EFDB552F8D}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Common.HttpPost]
+@="Common.HttpPost"
+
+[HKEY_CLASSES_ROOT\Common.HttpPost\CLSID]
+@="{6CC1F841-E5D3-313E-BEF0-927F065B8B59}"
+
+[HKEY_CLASSES_ROOT\CLSID\{6CC1F841-E5D3-313E-BEF0-927F065B8B59}]
+@="Common.HttpPost"
+
+[HKEY_CLASSES_ROOT\CLSID\{6CC1F841-E5D3-313E-BEF0-927F065B8B59}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.HttpPost"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{6CC1F841-E5D3-313E-BEF0-927F065B8B59}\InprocServer32\1.0.0.0]
+"Class"="Common.HttpPost"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{6CC1F841-E5D3-313E-BEF0-927F065B8B59}\ProgId]
+@="Common.HttpPost"
+
+[HKEY_CLASSES_ROOT\CLSID\{6CC1F841-E5D3-313E-BEF0-927F065B8B59}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Common.IO.Text]
+@="Common.IO.Text"
+
+[HKEY_CLASSES_ROOT\Common.IO.Text\CLSID]
+@="{182E04A5-1409-3CB1-A537-941C1045C517}"
+
+[HKEY_CLASSES_ROOT\CLSID\{182E04A5-1409-3CB1-A537-941C1045C517}]
+@="Common.IO.Text"
+
+[HKEY_CLASSES_ROOT\CLSID\{182E04A5-1409-3CB1-A537-941C1045C517}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.IO.Text"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{182E04A5-1409-3CB1-A537-941C1045C517}\InprocServer32\1.0.0.0]
+"Class"="Common.IO.Text"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{182E04A5-1409-3CB1-A537-941C1045C517}\ProgId]
+@="Common.IO.Text"
+
+[HKEY_CLASSES_ROOT\CLSID\{182E04A5-1409-3CB1-A537-941C1045C517}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Record\{F6BD3064-F08A-3099-AC69-C421794063D9}\1.0.0.0]
+"Class"="Common.IO.Text+GetWordFilter"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\Record\{A5F3D72A-4A64-309A-AB0F-EB1226B88D42}\1.0.0.0]
+"Class"="Common.Ui+RedirectTargetOption"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\Common.GraphicsHelper]
+@="Common.GraphicsHelper"
+
+[HKEY_CLASSES_ROOT\Common.GraphicsHelper\CLSID]
+@="{D46808D7-818D-3266-A638-40BFF663F83F}"
+
+[HKEY_CLASSES_ROOT\CLSID\{D46808D7-818D-3266-A638-40BFF663F83F}]
+@="Common.GraphicsHelper"
+
+[HKEY_CLASSES_ROOT\CLSID\{D46808D7-818D-3266-A638-40BFF663F83F}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.GraphicsHelper"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{D46808D7-818D-3266-A638-40BFF663F83F}\InprocServer32\1.0.0.0]
+"Class"="Common.GraphicsHelper"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{D46808D7-818D-3266-A638-40BFF663F83F}\ProgId]
+@="Common.GraphicsHelper"
+
+[HKEY_CLASSES_ROOT\CLSID\{D46808D7-818D-3266-A638-40BFF663F83F}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Record\{267B2912-D732-33EB-B428-0C4C8E05D8F7}\1.0.0.0]
+"Class"="Common.ThumbnailsDirectReference"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\Record\{501858A1-B8C1-30F5-8D16-D1409A92B7E3}\1.0.0.0]
+"Class"="Common.WaterMarkPositions"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\Common.FileDown]
+@="Common.FileDown"
+
+[HKEY_CLASSES_ROOT\Common.FileDown\CLSID]
+@="{EFA80B4C-39CE-346F-AA5A-F62ED12D1317}"
+
+[HKEY_CLASSES_ROOT\CLSID\{EFA80B4C-39CE-346F-AA5A-F62ED12D1317}]
+@="Common.FileDown"
+
+[HKEY_CLASSES_ROOT\CLSID\{EFA80B4C-39CE-346F-AA5A-F62ED12D1317}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.FileDown"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{EFA80B4C-39CE-346F-AA5A-F62ED12D1317}\InprocServer32\1.0.0.0]
+"Class"="Common.FileDown"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{EFA80B4C-39CE-346F-AA5A-F62ED12D1317}\ProgId]
+@="Common.FileDown"
+
+[HKEY_CLASSES_ROOT\CLSID\{EFA80B4C-39CE-346F-AA5A-F62ED12D1317}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Common.IO.Lz77Compression]
+@="Common.IO.Lz77Compression"
+
+[HKEY_CLASSES_ROOT\Common.IO.Lz77Compression\CLSID]
+@="{14BC8BD7-EBAE-3DAF-9E76-B5DCB2B314C4}"
+
+[HKEY_CLASSES_ROOT\CLSID\{14BC8BD7-EBAE-3DAF-9E76-B5DCB2B314C4}]
+@="Common.IO.Lz77Compression"
+
+[HKEY_CLASSES_ROOT\CLSID\{14BC8BD7-EBAE-3DAF-9E76-B5DCB2B314C4}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.IO.Lz77Compression"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{14BC8BD7-EBAE-3DAF-9E76-B5DCB2B314C4}\InprocServer32\1.0.0.0]
+"Class"="Common.IO.Lz77Compression"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{14BC8BD7-EBAE-3DAF-9E76-B5DCB2B314C4}\ProgId]
+@="Common.IO.Lz77Compression"
+
+[HKEY_CLASSES_ROOT\CLSID\{14BC8BD7-EBAE-3DAF-9E76-B5DCB2B314C4}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Common.IO.ZipEntityComPlus]
+@="Common.IO.ZipEntityComPlus"
+
+[HKEY_CLASSES_ROOT\Common.IO.ZipEntityComPlus\CLSID]
+@="{31AC9EA8-702B-3A7F-B2F2-6CED1319894C}"
+
+[HKEY_CLASSES_ROOT\CLSID\{31AC9EA8-702B-3A7F-B2F2-6CED1319894C}]
+@="Common.IO.ZipEntityComPlus"
+
+[HKEY_CLASSES_ROOT\CLSID\{31AC9EA8-702B-3A7F-B2F2-6CED1319894C}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.IO.ZipEntityComPlus"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{31AC9EA8-702B-3A7F-B2F2-6CED1319894C}\InprocServer32\1.0.0.0]
+"Class"="Common.IO.ZipEntityComPlus"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{31AC9EA8-702B-3A7F-B2F2-6CED1319894C}\ProgId]
+@="Common.IO.ZipEntityComPlus"
+
+[HKEY_CLASSES_ROOT\CLSID\{31AC9EA8-702B-3A7F-B2F2-6CED1319894C}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Record\{A86F7E37-6D22-3A20-9BCC-7B420A882369}\1.0.0.0]
+"Class"="Common.mp3.Mp3ID3Str"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\Common.mp3.MusicID3Tag]
+@="Common.mp3.MusicID3Tag"
+
+[HKEY_CLASSES_ROOT\Common.mp3.MusicID3Tag\CLSID]
+@="{4C579962-FC9C-3474-9F0F-82114C03231A}"
+
+[HKEY_CLASSES_ROOT\CLSID\{4C579962-FC9C-3474-9F0F-82114C03231A}]
+@="Common.mp3.MusicID3Tag"
+
+[HKEY_CLASSES_ROOT\CLSID\{4C579962-FC9C-3474-9F0F-82114C03231A}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.mp3.MusicID3Tag"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{4C579962-FC9C-3474-9F0F-82114C03231A}\InprocServer32\1.0.0.0]
+"Class"="Common.mp3.MusicID3Tag"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{4C579962-FC9C-3474-9F0F-82114C03231A}\ProgId]
+@="Common.mp3.MusicID3Tag"
+
+[HKEY_CLASSES_ROOT\CLSID\{4C579962-FC9C-3474-9F0F-82114C03231A}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Common.SqlData]
+@="Common.SqlData"
+
+[HKEY_CLASSES_ROOT\Common.SqlData\CLSID]
+@="{745CA305-4318-34AC-AD4E-8051ECD29136}"
+
+[HKEY_CLASSES_ROOT\CLSID\{745CA305-4318-34AC-AD4E-8051ECD29136}]
+@="Common.SqlData"
+
+[HKEY_CLASSES_ROOT\CLSID\{745CA305-4318-34AC-AD4E-8051ECD29136}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Common.SqlData"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{745CA305-4318-34AC-AD4E-8051ECD29136}\InprocServer32\1.0.0.0]
+"Class"="Common.SqlData"
+"Assembly"="Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca5832a08adfae11"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///F:/My Documents/Visual Studio 2008/Projects/MyCommLib/Common/Common/bin/release/Common.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{745CA305-4318-34AC-AD4E-8051ECD29136}\ProgId]
+@="Common.SqlData"
+
+[HKEY_CLASSES_ROOT\CLSID\{745CA305-4318-34AC-AD4E-8051ECD29136}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]

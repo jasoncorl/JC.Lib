@@ -1,0 +1,2 @@
+请手动更改注册表文件：
+将CodeBase键值对应的文件路径改成你存放webCommon.dll的路径

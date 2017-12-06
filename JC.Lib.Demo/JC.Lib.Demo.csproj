@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{03527981-D546-4D6F-A7AC-7AC521543EA4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JC.Lib.Demo</RootNamespace>
+    <AssemblyName>JC.Lib.Demo</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ManifestCertificateThumbprint>3644D0E72D968A7EBC63C4056BB695BA4BE35228</ManifestCertificateThumbprint>
+    <ManifestKeyFile>testDemo_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'TRIALVER|AnyCPU' ">
+    <OutputPath>bin\TRIALVER\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="JiebaNet.Analyser, Version=0.38.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\jieba.NET.0.38.3\lib\net45\JiebaNet.Analyser.dll</HintPath>
+    </Reference>
+    <Reference Include="JiebaNet.Segmenter, Version=0.38.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\jieba.NET.0.38.3\lib\net45\JiebaNet.Segmenter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmJieba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJieba.Designer.cs">
+      <DependentUpon>frmJieba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImgBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImgBatch.Designer.cs">
+      <DependentUpon>ImgBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IPAddressReaderFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IPAddressReaderFrm.Designer.cs">
+      <DependentUpon>IPAddressReaderFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DownFileDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DownFileDemo.Designer.cs">
+      <DependentUpon>DownFileDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EncryptionFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EncryptionFrm.Designer.cs">
+      <DependentUpon>EncryptionFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GPSCorrection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GPSCorrection.designer.cs">
+      <DependentUpon>GPSCorrection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpload.Designer.cs">
+      <DependentUpon>frmUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IPScanner.cs" />
+    <Compile Include="JdfFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JdfFrm.Designer.cs">
+      <DependentUpon>JdfFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KrcParseTry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KrcParseTry.Designer.cs">
+      <DependentUpon>KrcParseTry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mp3InfoDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mp3InfoDemo.Designer.cs">
+      <DependentUpon>Mp3InfoDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySqlDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySqlDemo.Designer.cs">
+      <DependentUpon>MySqlDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SnatchWeb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SnatchWeb.Designer.cs">
+      <DependentUpon>SnatchWeb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StringFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StringFrm.Designer.cs">
+      <DependentUpon>StringFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thumbnails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thumbnails.Designer.cs">
+      <DependentUpon>Thumbnails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmJieba.resx">
+      <DependentUpon>frmJieba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImgBatch.resx">
+      <DependentUpon>ImgBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPAddressReaderFrm.resx">
+      <DependentUpon>IPAddressReaderFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DownFileDemo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DownFileDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EncryptionFrm.resx">
+      <DependentUpon>EncryptionFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GPSCorrection.resx">
+      <DependentUpon>GPSCorrection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpload.resx">
+      <DependentUpon>frmUpload.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JdfFrm.resx">
+      <DependentUpon>JdfFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KrcParseTry.resx">
+      <DependentUpon>KrcParseTry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mp3InfoDemo.resx">
+      <DependentUpon>Mp3InfoDemo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySqlDemo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MySqlDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SnatchWeb.resx">
+      <DependentUpon>SnatchWeb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringFrm.resx">
+      <DependentUpon>StringFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thumbnails.resx">
+      <DependentUpon>Thumbnails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Temp.resx">
+      <DependentUpon>Temp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPostWithEncryptFrm.resx">
+      <DependentUpon>WebPostWithEncryptFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZipExpress.resx">
+      <DependentUpon>ZipExpress.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="qqwry.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Temp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Temp.Designer.cs">
+      <DependentUpon>Temp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebPostWithEncryptFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebPostWithEncryptFrm.Designer.cs">
+      <DependentUpon>WebPostWithEncryptFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZipExpress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZipExpress.Designer.cs">
+      <DependentUpon>ZipExpress.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mars2Wgs.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JC.Lib\JC.Lib.csproj">
+      <Project>{7dd6633c-68ae-431d-8f94-56e6b813d9b1}</Project>
+      <Name>JC.Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fakes\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
